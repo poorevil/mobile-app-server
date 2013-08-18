@@ -1,0 +1,12 @@
+application: mobile-app-server
+version: 23
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /taoxiaoxianinterface
+  static_dir: taoxiaoxianinterface
+
+- url: /.*
+  script: main.app

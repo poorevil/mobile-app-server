@@ -1,0 +1,5 @@
+cron:
+- description: daily get new ssq data job
+  url: /getdata
+  schedule: every 5 minutes from 21:00 to 23:30
+  timezone: Asia/Shanghai
